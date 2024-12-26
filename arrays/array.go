@@ -9,7 +9,7 @@ func main() {
 	var numbers = [10]int{1, 2, 2, 3, 4, 5, 6, 10, 2, 1}
 
 	// this is not possilble
-	//var ages[5]int = {21,22,23,89,90}
+	// var ages[5]int = {21,22,23,89,90}
 	var names [5]string
 	names[0] = "Puneeth"
 	names[1] = "Kumar"
@@ -18,7 +18,7 @@ func main() {
 	fmt.Println("All the names of the array is -> ", names)
 	fmt.Println("All the Numbers in number arrray is ->", numbers)
 
-	// to Print The Length of the array is
+	// To Print The Length of the array is
 	fmt.Println("Length of the numbers Array is -> ", len(numbers))
 	fmt.Println("Length of the names Array is -> ", len(names))
 
