@@ -19,4 +19,10 @@ func main() {
 			break
 		}
 	}
+
+	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+	for index, value := range numbers {
+		fmt.Println("The Index is ", index, "the Value is ", value)
+	}
 }
